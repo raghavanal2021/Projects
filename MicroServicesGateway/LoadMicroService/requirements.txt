@@ -1,0 +1,5 @@
+nameko
+pandas
+numpy
+redis
+dload

@@ -1,0 +1,14 @@
+numpy
+pandas
+fastapi
+pymongo
+redis
+concurrent-log-handler
+uvicorn
+websockets
+pika
+nameko
+dotenv
+flask
+eventlet
+requests
