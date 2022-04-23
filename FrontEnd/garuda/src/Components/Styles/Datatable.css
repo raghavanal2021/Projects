@@ -1,0 +1,8 @@
+.datatable-styles 
+    .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
