@@ -1,0 +1,177 @@
+FrontEnd/garuda/.env
+Docker Images/Redis/data/dump.rdb
+Docker Images/Mongodb/mongo-volume/_mdb_catalog.wt
+Docker Images/Mongodb/mongo-volume/collection-0-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/collection-2-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/collection-4-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/index-1-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/index-3-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/index-5-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/index-6-8284315032048278420.wt
+Docker Images/Mongodb/mongo-volume/mongod.lock
+Docker Images/Mongodb/mongo-volume/sizeStorer.wt
+Docker Images/Mongodb/mongo-volume/storage.bson
+Docker Images/Mongodb/mongo-volume/WiredTiger
+Docker Images/Mongodb/mongo-volume/WiredTiger.lock
+Docker Images/Mongodb/mongo-volume/WiredTiger.turtle
+Docker Images/Mongodb/mongo-volume/WiredTiger.wt
+Docker Images/Mongodb/mongo-volume/WiredTigerHS.wt
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-23T22-36-28Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-24T11-03-56Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.interim
+Docker Images/Mongodb/mongo-volume/journal/WiredTigerLog.0000000002
+Docker Images/Mongodb/mongo-volume/journal/WiredTigerPreplog.0000000001
+Docker Images/Mongodb/mongo-volume/journal/WiredTigerPreplog.0000000002
+FrontEnd/garuda/package-lock.json
+MicroServicesGateway/WebSocketGateway/__pycache__/__init__.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/__pycache__/SocketGateway.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/logs/.__SocketGateway.lock
+MicroServicesGateway/WebSocketGateway/logs/SocketGateway.log
+MicroServicesGateway/WebSocketGateway/.env
+MicroServicesGateway/LoadMicroService/data/cm01APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/cm04APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/cm05APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/cm06APR2022bhav.csv
+MicroServicesGateway/UtilitiesService/logs/.__UtilityService.lock
+MicroServicesGateway/UtilitiesService/logs/UtilityService.log
+MicroServicesGateway/UtilitiesService/datafile/NSEHoliday - Sheet1.csv
+MicroServicesGateway/UtilitiesService/.DS_Store
+Untitled.ipynb
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+Docker Images/.DS_Store
+Docker Images/Mongodb/mongo-volume/collection-0-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/collection-2-3215029753299355207.wt
+Docker Images/Mongodb/mongo-volume/collection-2-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/collection-4-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/collection-6-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/collection-20--5336455189221768748.wt
+Docker Images/Mongodb/mongo-volume/index-1-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/index-3-3215029753299355207.wt
+Docker Images/Mongodb/mongo-volume/index-5-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/index-7-5930526386702077249.wt
+Docker Images/Mongodb/mongo-volume/index-21--5336455189221768748.wt
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-26T05-51-13Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-26T19-06-05Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-27T04-21-30Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-27T20-27-38Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-28T18-59-07Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-03-31T22-57-57Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-02T09-26-34Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-02T15-56-37Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-05T19-01-14Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-11T17-24-45Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-12T17-52-09Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-16T13-21-44Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-19T05-05-12Z-00000
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-04-19T18-13-16Z-00000
+Docker Images/Mongodb/mongo-volume/journal/WiredTigerLog.0000000017
+Docker Images/Mongodb/mongo-volume/index-3-5930526386702077249.wt
+MicroServicesGateway/LoadMicroService/__pycache__/__init__.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/DerivativeLoadService.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/DownloadandUnzip.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/EquityLoadService.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/LoadService.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/LoadServiceRunner.cpython-39.pyc
+MicroServicesGateway/LoadMicroService/__pycache__/LoadtoMongo.cpython-39.pyc
+FrontEnd/.DS_Store
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo01APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo04APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo05APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo06APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo07APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo08APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo11APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo12APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo13APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo21MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo22MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo23MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo24MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo25MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo28MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo29MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo30MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/deriv/fo31MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm01APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm04APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm05APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm06APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm07APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm08APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm11APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm12APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm13APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm18APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm19APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm20APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm21APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm21MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm22APR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm22MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm23MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm24MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm25MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm28MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm29MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm30MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/data/archives/equity/cm31MAR2022bhav.csv
+MicroServicesGateway/LoadMicroService/logs/.__DownloadandUnzip.lock
+MicroServicesGateway/LoadMicroService/logs/.__EquityLoad.lock
+MicroServicesGateway/LoadMicroService/logs/.__EquityLoadService.lock
+MicroServicesGateway/LoadMicroService/logs/.__LoadService.lock
+MicroServicesGateway/LoadMicroService/logs/DownloadandUnzip.log
+MicroServicesGateway/LoadMicroService/logs/EquityLoad.log
+MicroServicesGateway/LoadMicroService/logs/EquityLoadService.log
+MicroServicesGateway/LoadMicroService/logs/LoadService.log
+MicroServicesGateway/LoadMicroService/zip/cm01APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm04APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm05APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm06APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm07APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm08APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm11APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm12APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm13APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm18APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm19APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm20APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm21APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm21MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm22APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm22MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm23MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm24MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm25MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm28MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm29MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm30MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/cm31MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo01APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo04APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo05APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo06APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo07APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo08APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo11APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo12APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo13APR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo21MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo22MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo23MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo24MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo25MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo28MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo29MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo30MAR2022bhav.csv.zip.zip
+MicroServicesGateway/LoadMicroService/zip/fo31MAR2022bhav.csv.zip.zip
+MicroServicesGateway/UtilitiesService/__pycache__/utilities.cpython-39.pyc
+MicroServicesGateway/UtilitiesService/__pycache__/inputmodel.cpython-39.pyc
+MicroServicesGateway/UtilitiesService/__pycache__/FileReader.cpython-39.pyc
+MicroServicesGateway/UtilitiesService/__pycache__/DataRepository.cpython-39.pyc
+MicroServicesGateway/UtilitiesService/__pycache__/__init__.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/__pycache__/actionrouter.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/__pycache__/FlaskSocket.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/__pycache__/Listener.cpython-39.pyc
+MicroServicesGateway/WebSocketGateway/logs/.__actionrouter.lock
+MicroServicesGateway/WebSocketGateway/logs/actionrouter.log
+.DS_Store
