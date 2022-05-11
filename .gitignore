@@ -175,3 +175,9 @@ MicroServicesGateway/WebSocketGateway/__pycache__/Listener.cpython-39.pyc
 MicroServicesGateway/WebSocketGateway/logs/.__actionrouter.lock
 MicroServicesGateway/WebSocketGateway/logs/actionrouter.log
 .DS_Store
+Docker Images/Mongodb/mongo-volume/diagnostic.data/metrics.2022-05-11T19-31-37Z-00000
+.gitignore
+Docker Images/Mongodb/mongo-volume/journal/WiredTigerLog.0000000018
+Docker Images/Mongodb/mongo-volume/collection-0-2382403926854320301.wt
+Docker Images/Mongodb/mongo-volume/index-1-2382403926854320301.wt
+MicroServicesGateway/UtilitiesService/__pycache__/Screenersetup.cpython-39.pyc

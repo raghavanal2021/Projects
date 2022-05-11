@@ -1,12 +1,13 @@
 from fastapi import FastAPI
 from datetime import date, datetime
-from inputmodel import HolidayInputModel
+from inputmodel import HolidayInputModel, ScreenerSetup
 from fastapi.middleware.cors import CORSMiddleware
 from DataRepository import DataRep
 import json
 from FileReader import FileLoader
 import pandas as pd
 import numpy as np
+from Screenersetup import SetupScreener
 
 app = FastAPI()
 
@@ -57,3 +58,13 @@ async def check_load_exists(date):
     out = rep.getloadexists(datestr,['Equity','IndexFutures'])
     return out
 
+screensetup = SetupScreener()
+@app.post("/screenersetup/")
+async def screener_setup(setup:ScreenerSetup):
+    result = screensetup.setScreener(setup)
+    return result
+
+@app.get("/screeners") 
+async def getscreeners():
+    result = screensetup.getScreener()
+    return result

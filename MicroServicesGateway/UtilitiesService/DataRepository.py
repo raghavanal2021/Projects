@@ -58,3 +58,22 @@ class DataRep():
                 _loadexists = 'Y'
             self.output[asst]= _loadexists
         return json.dumps(self.output)
+
+    def checkscreenerexists(self,screenername):
+        self.screener = self.db['Screener']
+        if self.screener.count_documents({"screenername":screenername}) != 0:
+            return True
+        else:
+            return False
+
+    def insertscreenerdata(self,screenermsg):
+        self.screener1 = self.db['Screener']
+        result = self.screener1.insert_one(screenermsg)
+        print(result.inserted_id)
+        data = self.screener1.find({},{"_id":0})
+        return json.dumps(list(data))
+
+    def getscreenerdata(self):
+        self.screener1 = self.db['Screener']
+        data = self.screener1.find({},{"_id":0})
+        return json.dumps(list(data))

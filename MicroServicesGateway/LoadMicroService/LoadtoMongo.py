@@ -46,6 +46,7 @@ class MongoLoad():
                     logging.info(f"Loaded file {file}")
                     interimmessage = {"action":"loadresponse","payload":{"eventtimestamp":datetime.now().isoformat(),"date": dateval ,"asset":'Equity',"reporttype":"DB Load","statuscode":200, "statusdesc":f"Equity File {file} loaded successfully."}}
                     self.red.publish('loadstatus',json.dumps(interimmessage))
+                    self.red.publish('screenequity',dateval)
                 os.rename(fileloc,archloc)
                 logging.info(f"Moved {file} from {fileloc} to {archloc}")
             except Exception as e:

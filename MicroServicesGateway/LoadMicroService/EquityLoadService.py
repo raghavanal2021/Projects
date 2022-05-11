@@ -14,6 +14,7 @@ from DownloadandUnzip import DownloadandUnzip
 import redis
 #Set the Logger
 load_dotenv()
+dispatch = EventDispatcher() 
 logging = getLogger(__name__)
 utilities_url = os.getenv("UTILITIES_URL")
 equities_url = os.getenv("EQUITIES_URL")
@@ -45,7 +46,9 @@ class EquityLoad():
             logging.error(e)
 
     def prepareload(self,startDate,endDate,loadoptions):
+        statuscode = -1
         try:
+
             startdate_obj = datetime.strptime(startDate,'%Y%m%d')
             enddate_obj = datetime.strptime(endDate,'%Y%m%d')
             self.filename = []
@@ -69,11 +72,17 @@ class EquityLoad():
                 else:
                     message = {"action":"loadresponse","payload":{"eventtimestamp":datetime.now().isoformat(),"asset":'Equity','reporttype':'price',"statuscode":-100, "statusdesc":f"Data Already Exists. Not downloading again. ","date":dates}}
                     self.red.publish("loadstatus",json.dumps(message))
-            self.mongoload.equity_load('equity')
+            try:
+                self.mongoload.equity_load('equity')
+                statuscode = 200
+            except Exception as ex:
+                logging.error(f"Error in Loading the file")
+                statuscode = -100
         except Exception as e:
             logging.error(f"Error converting to Date format {e}")   
-
-
+            statuscode = -100
+        return statuscode
+   
     def get_business_days(self,startDate,endDate):
             bday_url = f"{utilities_url}/businessdays/{startDate}/{endDate}"
             r = requests.get(bday_url) 
