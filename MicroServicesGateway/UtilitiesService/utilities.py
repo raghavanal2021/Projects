@@ -68,3 +68,13 @@ async def screener_setup(setup:ScreenerSetup):
 async def getscreeners():
     result = screensetup.getScreener()
     return result
+
+@app.get("/enabledscreeners")
+async def enabledscreener():
+    result = screensetup.getenabledScreener()
+    return result
+
+@app.get("/getEquityMaster")
+async def getEquityMaster():
+    result = rep.getEquityMaster()
+    return result

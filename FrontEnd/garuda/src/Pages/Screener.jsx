@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { ScreenerFilter } from '../Components/ScreenerComponents/ScreenerFilter';
 
 /**
 * Raghavan AL
@@ -10,7 +10,9 @@ import React, { useState } from 'react'
 const Screener = (props) => {
     
     return(
-<div>Screener</div>
+<div>
+<ScreenerFilter/>
+</div>
       
    )
   };

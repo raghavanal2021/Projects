@@ -36,6 +36,8 @@ class MongoLoad():
                 fileloc = f"{self.location}/{file}"
                 archloc = f"{self.archlocation}/{file}"
                 df = pd.read_csv(fileloc)
+                dateobj = datetime.strptime(df['TIMESTAMP'].max(),'%d-%b-%Y')
+                df['dates'] = dateobj
                 dateval = datetime.strftime(datetime.strptime(df['TIMESTAMP'].max(),'%d-%b-%Y'),'%Y%m%d')
                 if (self.coll.count_documents({"TIMESTAMP": dateval},limit = 1) != 0):
                     logging.error(f"Attempting to load duplicate records for {dateval}")
@@ -81,7 +83,12 @@ class MongoLoad():
                 df_stk_fut = df.loc[df["INSTRUMENT"].isin(stk_fut)]
                 df_index_opt = df.loc[df["INSTRUMENT"].isin(index_opt)]
                 df_stk_opt = df.loc[df["INSTRUMENT"].isin(stk_opt)]
+                dateobj = datetime.strptime(df_index_fut['TIMESTAMP'].max(),'%d-%b-%Y')
                 dateval = datetime.strftime(datetime.strptime(df_index_fut['TIMESTAMP'].max(),'%d-%b-%Y'),'%Y%m%d')
+                df_index_fut['dates'] = dateobj
+                df_stk_fut['dates'] = dateobj
+                df_index_opt['dates'] = dateobj
+                df_stk_opt['dates'] = dateobj
                 if (self.ficoll.count_documents({"TIMESTAMP": dateval},limit = 1) != 0):
                     logging.error(f"Attempting to load duplicate records for {dateval}")
                     interimmessage = {"action":"loadresponse","payload":{"eventtimestamp":datetime.now().isoformat(),"date": dateval ,"asset":'Derivatives',"reporttype":"DB Load","statuscode":-100, "statusdesc":f"Records already exists for date {dateval}"}}

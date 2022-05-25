@@ -42,3 +42,8 @@ class SetupScreener():
         result = {"action":"getscreener","payload":{"statuscode":100, "statusdesc":"Screener Fetch successful", "return":r}}
         return json.dumps(result)
 
+    def getenabledScreener(self):
+        datresult = self.datarep.getenabledscreener()
+        r = datresult
+        result = {"action":"getscreener","payload":{"statuscode":100, "statusdesc":"Screener Fetch successful", "return":r}}
+        return json.dumps(result)

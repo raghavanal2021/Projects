@@ -21,6 +21,7 @@ export const ScreenerSetup = (props) => {
     const [screenername,setscreenername] = useState("");
     const [screenerdesc,setscreenerdesc] = useState("");
     const [resolution, setresolution] = useState("");
+    const [screentype, setscreentype] = useState("");
     const msgstate = useSelector((state)=> state.screenersetup);
     const [response,setresponse] = useState([]);
     const toast = useRef(null);
@@ -42,6 +43,14 @@ export const ScreenerSetup = (props) => {
         {label: 'Monthly', value: 'M'}
     ];
 
+    const screenerType = [
+        {label: 'NarrowRange',   value : 'NR'},
+        {label: 'MarketProfile', value : 'MP'},
+        {label: 'TTMSqueeze', value : 'TTM'},
+        {label: 'CPR', value : 'CPR'},
+        {label: 'InsideBar', value : 'IBar'}
+    ];
+
     const onHide = () => {
         setdisplayDialog(false);
     }
@@ -61,7 +70,7 @@ export const ScreenerSetup = (props) => {
             );
 
     const dialogclickok = () => {
-        let jsonobj = {"screenername":screenername, "screenerdesc":screenerdesc,"freq":resolution, "enabled": enabled};
+        let jsonobj = {"screenername":screenername, "screenerdesc":screenerdesc,"freq":resolution, "screenertype": screentype,"enabled": enabled};
         let inputjson = JSON.stringify(jsonobj);
         alert(inputjson);
         callsetupService(inputjson);
@@ -149,6 +158,7 @@ export const ScreenerSetup = (props) => {
                     <Column field="screenername" header="Screener Name"></Column>
                     <Column field="screenerdesc" header="Screener Description"></Column>
                     <Column field="freq" header="Frequency"></Column>
+                    <Column field="screenertype" header="Screener Type"></Column>
                     <Column field="enabled" header="Enabled"></Column>
                 </DataTable>
         </div>
@@ -184,6 +194,15 @@ export const ScreenerSetup = (props) => {
                             <Dropdown placeholder="Set the Resolution" value={resolution} options={resolutionOptions}  onChange= {(e)=> setresolution(e.value)}/>
                         </div>
                     </div>
+                    <div className="col-12 md:col-4 mt-2">
+                        <div className="p-inputgroup">
+                            <span className="p-inputgroup-addon">
+                            <i className="pi pi-tags"></i> 
+                            </span>
+                            <Dropdown placeholder="Set the Screener Type" value={screentype} options={screenerType}  onChange= {(e)=> setscreentype(e.value)}/>
+                        </div>
+                    </div>
+
                     <div className="col-12 mt-2">
                         <div className="p-inputgroup">
                             <span className="p-inputgroup-addon">

@@ -9,7 +9,7 @@ Get the logger for the class
 '''
 def getLogger(mod_name):
     logger = logging.getLogger(mod_name)
-    file_name = f"ScreenerService.log"
+    file_name = f"EquityLoad.log"
     file_handler = ConcurrentRotatingFileHandler(f"./logs/{file_name}",backupCount=2)
     file_formatter = logging.Formatter(json.dumps({'time':'%(asctime)s', 'name':'%(name)s','level':'%(levelname)s','message':'%(message)s'}))
     file_handler.setFormatter(file_formatter)

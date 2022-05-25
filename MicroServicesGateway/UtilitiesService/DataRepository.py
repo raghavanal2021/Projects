@@ -58,7 +58,7 @@ class DataRep():
                 _loadexists = 'Y'
             self.output[asst]= _loadexists
         return json.dumps(self.output)
-
+    
     def checkscreenerexists(self,screenername):
         self.screener = self.db['Screener']
         if self.screener.count_documents({"screenername":screenername}) != 0:
@@ -77,3 +77,13 @@ class DataRep():
         self.screener1 = self.db['Screener']
         data = self.screener1.find({},{"_id":0})
         return json.dumps(list(data))
+
+    def getenabledscreener(self):
+        self.screener1 = self.db['Screener']
+        data = self.screener1.find({"enabled":True},{"_id":0})
+        return list(data)
+
+    def getEquityMaster(self):
+        self.mastercol = self.db['EquityMaster']
+        data = self.mastercol.find({},{"_id":0})
+        return list(data)

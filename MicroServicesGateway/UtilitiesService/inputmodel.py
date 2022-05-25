@@ -10,4 +10,5 @@ class ScreenerSetup(BaseModel):
     screenername:str
     screenerdesc:str
     freq:str
+    screenertype:str
     enabled:bool
